@@ -1,0 +1,19 @@
+body { color: #7d7f82;
+    background-color: #7d7f82;
+    font-family: "Asap", sans-serif;
+}
+
+h1 { font-size: 72px;
+}
+
+.main { font-size: 24px;
+}
+
+.sexy { font-size: 40px;
+    border: 2px solid;
+    border-radius: 25px;
+    background-image: url(http://i.imgur.com/AzmOoNu.jpg)
+}
+
+.signin {  border: 2px solid;
+    border-radius: 25px;
