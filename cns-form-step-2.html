@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset= "utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title>Apply Now | Security Jobs</title>
+
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Archivo Narrow' rel='stylesheet' type='text/css'>
+
+        <link href="//cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/v4.0.0/build/css/bootstrap-datetimepicker.css" rel="stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.js"></script>
+        <script src="//cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/v4.0.0/src/js/bootstrap-datetimepicker.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>Have you ever worked for a security company?</p>
+                    <div class="radio">
+                        <label class="radio-inline">
+                            <input type="radio" name="everworked" id="everworked1" value="option1">Yes
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="everworked" id="everworked2" value="option2">No
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-6">
+                        <input class="form-control" type="text" name="companyname1" placeholder="Company Name">
+                    </div>
+                    <div class="col-sm-3">
+                        <input class="form-control" type="text" name="startpay1" placeholder="Start Pay / Hr">
+                    </div>
+                    <div class="col-sm-3">
+                        <input class="form-control" type="text" name="endpay1" placeholder="End Pay / Hr">
+                    </div>
+
+                    <div class="col-sm-12">
+                        <textarea class="form-control" placeholder="What posts did you work and where were they located?" rows="3"></textarea>
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <p>Are you seeking full-time or part-time employment?</p>
+                    <div class="radio">
+                        <label class="radio-inline">
+                            <input type="radio" name="hoursquestion" id="hoursquestion1" value="option1">Full-Time
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="hoursquestion" id="hoursquestion2" value="option2">Part-Time
+                        </label>
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <p>What days are you available to work?</p>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" id="blankCheckbox" value="option1" aria-label="open">Open
+                        </label><br>
+                        <label>
+                            <input type="checkbox" id="blankCheckbox" value="option1" aria-label="monday">Monday
+                        </label>
+                        <label>
+                            <input type="checkbox" id="blankCheckbox" value="option1" aria-label="tuesday">Tuesday
+                        </label>
+                        <label>
+                            <input type="checkbox" id="blankCheckbox" value="option1" aria-label="wednesday">Wednesday
+                        </label>
+                        <label>
+                            <input type="checkbox" id="blankCheckbox" value="option1" aria-label="thursday">Thursday
+                        </label>
+                        <label>
+                            <input type="checkbox" id="blankCheckbox" value="option1" aria-label="friday">Friday
+                        </label>
+                        <label>
+                            <input type="checkbox" id="blankCheckbox" value="option1" aria-label="saturday">Saturday
+                        </label>
+                        <label>
+                            <input type="checkbox" id="blankCheckbox" value="option1" aria-label="sunday">Sunday
+                        </label>
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <p>Which shifts are you available to work?</p>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" id="blankCheckbox" value="option1" aria-label="first">First
+                        </label>
+                        <label>
+                            <input type="checkbox" id="blankCheckbox" value="option1" aria-label="second">Second
+                        </label>
+                        <label>
+                            <input type="checkbox" id="blankCheckbox" value="option1" aria-label="third">Third
+                        </label>
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <label for="dtquestion">Do you agree to take a drug test?</label>
+                    <div class="radio">
+                        <label class="radio-inline">
+                            <input type="radio" name="dtquestion" id="dtquestion" value="option1">Yes
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="dtquestion" id="dtquestion2" value="option2">No
+                        </label>
+                    </div>
+                    <small>All applicants must pass drug test before being hired.</small>
+                </div>
+
+                <div class="col-sm-12">
+                    <label for="datecanstart">Date available to start:</label>
+                    <div class="form-group">
+                        <div class='input-group date' id='datetimepicker1'>
+                            <input type='text' class="form-control" name="datecanstart" />
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <select id="Referred" name="Referred" class="form-control">
+                        <option value="">(How did you hear about us?)</option>
+                        <option value="Indeed">Indeed</option>
+                        <option value="Craigslist">Craigslist</option>
+                        <option value="SimplyHired">SimplyHired</option>
+                        <option value="JuJu">JuJu</option>
+                        <option value="LinkUp">LinkUp</option>
+                        <option value="Glassdoor">Glassdoor</option>
+                        <option value="US.jobs">US.jobs</option>
+                        <option value="Google">Google</option>
+                        <option value="Bing">Bing</option>
+                        <option value="Yahoo">Yahoo</option>
+                        <option value="Other Search Engine">Other Search Engine</option>
+                        <option value="Facebook">Facebook</option>
+                        <option value="Friend">Friend</option>
+                        <option value="Employee">Employee</option>
+                        <option value="Unemployment Office">Unemployment Office</option>
+                    </select>
+                </div>
+
+                <div class="col-sm-12">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker1').datetimepicker({
+                    format: 'MM/DD/YYYY'
+                });
+            });
+        </script>
+    </body>
+</html>
